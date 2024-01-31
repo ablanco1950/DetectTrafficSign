@@ -47,3 +47,16 @@ Observations:
 - In detecting signals, the important thing is to box the detected signals, ignoring the meaning of {0: 'prohibitory', 1: 'danger', 2: 'mandatory', 3: 'other'} since they are not It tries to classify undetected images.
 - In the database that has been downloaded to create the model https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format/data it seems that some signs such as the passage of pedestrians have not been labeled
 - The image recognition model downloaded from https://github.com/faeya/traffic-sign-classification only includes a reduced set of 43 images. I plan to start a project that includes a greater number of images.
+
+References:
+
+https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format/code
+
+https://www.kaggle.com/datasets/barzansaeedpour/traffic-sign-detection
+
+https://www.kaggle.com/code/valentynsichkar/traffic-signs-detection-by-yolo-v3-opencv-keras
+
+https://www.pexels.com/video/road-trip-4434242/
+
+
+
