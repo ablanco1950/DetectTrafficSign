@@ -40,8 +40,10 @@ For step-by-step monitoring of the detected signals, programs are used that coll
 
 DetectTrafficSignYolov8.py
 
+Images with the detected signals appear on the console and at the end the total image with the detected images boxed.
+
 Observations:
 
--In detecting signals, the important thing is to box the detected signals, ignoring the meaning of {0: 'prohibitory', 1: 'danger', 2: 'mandatory', 3: 'other'} since they are not It tries to classify undetected images.
+- In detecting signals, the important thing is to box the detected signals, ignoring the meaning of {0: 'prohibitory', 1: 'danger', 2: 'mandatory', 3: 'other'} since they are not It tries to classify undetected images.
 - In the database that has been downloaded to create the model https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format/data it seems that some signs such as the passage of pedestrians have not been labeled
 - The image recognition model downloaded from https://github.com/faeya/traffic-sign-classification only includes a reduced set of 43 images. I plan to start a project that includes a greater number of images.
