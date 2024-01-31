@@ -1,0 +1,6 @@
+train: train/images
+val: valid/images
+
+nc: 4
+
+names: ['prohibitory', 'danger', 'mandatory', 'other']
