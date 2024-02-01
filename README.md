@@ -60,5 +60,8 @@ https://www.pexels.com/video/road-trip-4434242/
 
 https://github.com/faeya/traffic-sign-classification
 
+https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR
+
+
 
 
