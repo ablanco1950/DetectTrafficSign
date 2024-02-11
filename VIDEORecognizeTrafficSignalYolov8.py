@@ -14,14 +14,16 @@ dirVideo ="traffic-sign-to-test.mp4"
 
 #Downloaded from https://www.pexels.com/video/road-trip-4434242/
 #dirVideo ="production_id_4434242 (2160p).mp4"
+#dirVideo="production_id_4606790 (2160p).mp4"
 
 #dirnameYolo="runs\\detect\\train2\\weights\\best.pt"
 dirnameYolo="bestDetectTrafficSign.pt"
 
 from keras.models import Sequential, load_model
 # Downloaded from https://github.com/faeya/traffic-sign-classification
-modelTrafficSignRecognition=load_model('traffic_classifier.h5')
-#modelTrafficSignRecognition=load_model('my_model.h5')
+#modelTrafficSignRecognition=load_model('traffic_classifier.h5')
+# downloaded from https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition
+modelTrafficSignRecognition=load_model('model.h5')
 
 
 #creating dictionary to label all traffic sign classes.
@@ -181,7 +183,7 @@ while (cap.isOpened()):
                      
                      # recognize signal
                      data=[]
-                     SignalToRecognize=cv2.resize(gray1,(30,30))
+                     SignalToRecognize=cv2.resize(gray1,(32,32))
                      data.append(np.array(SignalToRecognize))
                      X_test=np.array(data)
                      predict_x=modelTrafficSignRecognition.predict(X_test) 
