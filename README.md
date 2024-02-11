@@ -30,7 +30,7 @@ which uses the traffic-sign-to-test.mp4 video downloaded from https://www.kaggle
 
 A more extensive test can be obtained by downloading the video production_id_4434242 (2160p).mp4 from the address https://www.pexels.com/video/road-trip-4434242/ (free download), for which it is enough to activate instruction 16
 
-A recognition test of the detected signs can be performed by downloading the model.h5 model from the project [https://github.com/faeya/traffic-sign-classification](https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition) and running the program:
+A recognition test of the detected signs can be performed by downloading the model.h5 model from the project  https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition and running the program:
 
 VIDEORecognizeTrafficSignalYolov8.py
 
