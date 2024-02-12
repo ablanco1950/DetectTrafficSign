@@ -30,11 +30,6 @@ which uses the traffic-sign-to-test.mp4 video downloaded from https://www.kaggle
 
 A more extensive test can be obtained by downloading the video production_id_4434242 (2160p).mp4 from the address https://www.pexels.com/video/road-trip-4434242/ (free download), for which it is enough to activate instruction 16
 
-A recognition test of the detected signs can be performed by downloading the model.h5 model from the project  https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition and running the program:
-
-VIDEORecognizeTrafficSignalYolov8.py
-
-The names of the recognized signals appear on the console.
 
 For step-by-step monitoring of the detected signals, programs are used that collect the detected signals from a set of images in the Test folder.
 
@@ -46,7 +41,7 @@ Observations:
 
 - In detecting signals, the important thing is to box the detected signals, ignoring the meaning of {0: 'prohibitory', 1: 'danger', 2: 'mandatory', 3: 'other'} since they are not It tries to classify undetected images.
 - In the database that has been downloaded to create the model https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format/data it seems that some signs such as the passage of pedestrians have not been labeled
-- I plan to start a project that includes a greater number of images.
+
 
 References:
 
