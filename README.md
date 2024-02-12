@@ -37,6 +37,8 @@ DetectTrafficSignYolov8.py
 
 Images with the detected signals appear on the console and at the end the total image with the detected images boxed.
 
+To recognize traffic signals detected see: https://github.com/ablanco1950/RecognizeTrafficSign.
+
 Observations:
 
 - In detecting signals, the important thing is to box the detected signals, ignoring the meaning of {0: 'prohibitory', 1: 'danger', 2: 'mandatory', 3: 'other'} since they are not It tries to classify undetected images.
@@ -52,6 +54,8 @@ https://www.kaggle.com/datasets/barzansaeedpour/traffic-sign-detection
 https://www.kaggle.com/code/valentynsichkar/traffic-signs-detection-by-yolo-v3-opencv-keras
 
 https://www.pexels.com/video/road-trip-4434242/
+
+https://github.com/ablanco1950/RecognizeTrafficSign.
 
 https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition
 
