@@ -1,6 +1,6 @@
 # DetectTrafficSign
 Creation of a model based on yolov8 that uses the file downloaded from https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format/data as a custom dataset to detect traffic signs.
-The detected signals can be recognized with the project "https://github.com//ablanco1950//RecognizeTrafficSign.".
+The detected signals can be recognized with the project https://github.com//ablanco1950//RecognizeTrafficSign.
 
 Requirements
 
@@ -55,7 +55,7 @@ https://www.kaggle.com/code/valentynsichkar/traffic-signs-detection-by-yolo-v3-o
 
 https://www.pexels.com/video/road-trip-4434242/
 
-https://github.com/ablanco1950/RecognizeTrafficSign.
+https://github.com/ablanco1950/RecognizeTrafficSign
 
 https://github.com/AvishkaSandeepa/Traffic-Signs-Recognition
 
