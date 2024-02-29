@@ -37,7 +37,7 @@ DetectTrafficSignYolov8.py
 
 Images with the detected signals appear on the console and at the end the total image with the detected images boxed.
 
-To recognize traffic signals detected using the  model generated in this project see: https://github.com/ablanco1950/RecognizeTrafficSign.
+To recognize traffic signals detected using the  model bestDetectTrafficSign.pt generated in this project and attached, see: https://github.com/ablanco1950/RecognizeTrafficSign.
 
 Observations:
 
